@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "dln-vote",
-    "currentPage": "devlinbot.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -51,7 +51,7 @@
     "robotsSwitcher": "",
     "siteUrl": "",
     "sitemapSwitcherAuto": "on",
-    "google-analytics": "<meta name=\"theme-color\" content=\"#4F779E\">\r\n<meta name=\"description\" content=\"Vote for our bots and reap the rewards!\">\r\n<link rel=\"canonical\" href=\"https://dbvote.github.io/\">\r\n<meta name=\"twitter:card\" value=\"summary\">\r\n<meta name=\"twitter:title\" content=\"Vote for our bots\">\r\n<meta name=\"twitter:description\" content=\"Vote for our bots and reap the rewards!\">\r\n<meta name=\"twitter:image\" content=\"https://dlnbots.github.io/images/servermate_ico.png\">\r\n<meta property=\"og:site_name\" value=\"Devlin Studios\">\r\n<meta property=\"og:title\" content=\"Vote for our bots\">\r\n<meta property=\"og:url\" content=\"https://dbvote.github.io/\">\r\n<meta property=\"og:description\" content=\"Vote for our bots and reap the rewards!\">\r\n<meta property=\"og:image\" content=\"https://dlnbots.github.io/images/dln.png\">",
+    "google-analytics": "<meta name=\"theme-color\" content=\"#4F779E\">\r\n<meta name=\"description\" content=\"Vote for our bots and reap the rewards!\">\r\n<link rel=\"canonical\" href=\"https://dbvote.github.io/\">\r\n<meta name=\"twitter:card\" value=\"summary\">\r\n<meta name=\"twitter:title\" content=\"Vote for our bots\">\r\n<meta name=\"twitter:description\" content=\"Vote for our bots and reap the rewards!\">\r\n<meta name=\"twitter:image\" content=\"https://dlnbots.github.io/images/dln.png\">\r\n<meta property=\"og:site_name\" value=\"Devlin Studios\">\r\n<meta property=\"og:title\" content=\"Vote for our bots\">\r\n<meta property=\"og:url\" content=\"https://dbvote.github.io/\">\r\n<meta property=\"og:description\" content=\"Vote for our bots and reap the rewards!\">\r\n<meta property=\"og:image\" content=\"https://dlnbots.github.io/images/dln.png\">",
     "сanonical-url": ""
   },
   "pages": {
@@ -2029,11 +2029,11 @@
           "_name": "header16",
           "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#23272a\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                    Here's another bot for you!</h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Try out ServerMate today to gain members in your discord server!</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-secondary\" href=\"https://dlnbots.github.io/servermate\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mbrib-login mbr-iconfont mbr-iconfont-btn\"></span>Go</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_cid": "roSkTJXgIX",
+          "_anchor": "header16-2s",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header16-2s"
+          "_params": {}
         },
         {
           "_styles": {
@@ -2659,11 +2659,11 @@
           "_name": "content9",
           "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#8ebae2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#2c2f33\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>\n                    You reached the end. Thanks!</div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
           "_cid": "roSjTL9vhg",
+          "_anchor": "content9-2o",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content9-2o"
+          "_params": {}
         },
         {
           "alias": false,
